@@ -14,9 +14,9 @@ Language: Russian
 User opens the website in Russian Language
 
 ### Steps to Reproduce
-1. Open website (https://nirvanajapanesespa.com)
+1. Open the website: https://nirvanajapanesespa.com
 2. Switch language to Russian
-3. Navigate to “Каталог услуг”
+3. Navigate to the “Каталог услуг” 
 4. Scroll to “SPA-пакеты ROYAL”
 5. Check line 9 in the description
 
@@ -31,27 +31,48 @@ low
 
 ---
 
-## Bug 2: 
-## External link opens in same tab
-## The title on the page is not written in Russian.
+## Bug 2: External link opens in the same tab instead of a new tab
 
 ### Preconditions
-User opens the website in Russian Language
+The user opens the website and navigates to the "Company Policy" page in Russian language.
 
 ### Steps to Reproduce
-1. Open website (https://nirvanajapanesespa.com)
+1. Open the website: https://nirvanajapanesespa.com
 2. Switch language to Russian
-3. Open "Policy page" 
-4. Scroll down the terms in the text
+3. Navigate to the "Политика компании" page: https://nirvanajapanesespa.com/ru/policyru/ 
+4. Scroll down the page
 5. Click "Политика и правила акций"
 
 ### Actual Result
-1. Link opens in the same tab
-2. The title on the page is not written in Russian but in Hebrew "מדיניות ונהלים".
+The external link opens in the same browser tab.
 
 ### Expected Result
-1. Link should open in a new tab
-2. The title on the page with Russian language should be "Политика компании"
+The external link should open in a new browser tab without replacing the current page.
 
 ### Severity
-Low
+Medium
+
+---
+
+## Bug 3: Incorrect language displayed in "Company Policy" page title
+
+### Preconditions
+The user opens the website and selects Russian or English language
+
+### Steps to Reproduce
+1. Open the website: https://nirvanajapanesespa.com
+2. Switch the language to Russian or English
+3. Navigate to the "Company Policy" page:
+   - Russian: https://nirvanajapanesespa.com/ru/policyru/
+   - English: https://nirvanajapanesespa.com/en/policyen/
+
+### Actual Result
+The page title is displayed in Hebrew ("מדיניות ונהלים") instead of the selected language.
+
+### Expected Result
+The page title should match the selected language:
+- Russian: "Политика компании"
+- English: "Company Policy"
+
+### Severity
+Medium
