@@ -32,8 +32,8 @@ low
 ---
 
 ## Bug 2: 
-# External link opens in same tab
-# The title on the page is not written in Russian.
+## External link opens in same tab
+## The title on the page is not written in Russian.
 
 ### Preconditions
 User opens the website in Russian Language
