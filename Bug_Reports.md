@@ -76,3 +76,29 @@ The page title should match the selected language:
 
 ### Severity
 Medium
+
+---
+
+## Bug 4: Service item is expanded by default in the catalog page
+
+### Preconditions
+The user opens the website in Russian language.
+
+### Steps to Reproduce
+1. Open the website: https://nirvanajapanesespa.com
+2. Switch the language to Russian
+3. Navigate to the "Services Catalog" page: https://nirvanajapanesespa.com/ru/catalogru/
+
+### Actual Result
+The service "Спа головы 30 минут" is expanded by default when the page loads.
+
+### Expected Result
+All service items should be collapsed by default when the catalog page is opened.
+
+### Severity
+Low
+
+### Status
+Open
+### Notes
+This behavior contradicts the requirement that all services shall be collapsed by default (see SRS section 3.3.2.5)
