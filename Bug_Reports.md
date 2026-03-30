@@ -2,8 +2,7 @@
 
 ---
 
-## Bug 1: 
-[RU Services Page] Typo in word “люой” instead of “любой” in ROYAL spa package description
+## Bug 1: [RU Services Page] Typo in word “люой” instead of “любой” in ROYAL spa package description
 
 ### Environment
 Browser: Chrome
@@ -114,25 +113,23 @@ This behavior contradicts the requirement that all services shall be collapsed b
 
 ---
 
-## Bug 5: Missing English language option in mobile menu (Safari, Russian version)
+## Bug 5: Missing English language option on "Promotions and Discounts" page
 
 ### Environment
-Browser: Safari  
-Device: iPhone 12(Mobile)  
-Language: Russian  
+Browser: Chrome, Safari  
+Device: Desktop, Mobile  
+Languages: Russian, Hebrew
 
 ### Preconditions
-The user opens the website on a mobile device using Safari browser.
+The user opens the website and selects either Russian or Hebrew language.
 
 ### Steps to Reproduce
 1. Open the website: https://nirvanajapanesespa.com
-2. Switch the language to Russian
-3. Open the mobile menu "Акции скидки и распродажи"
-4. Open the mobile menu
-5. Locate the language switcher
+2. Switch language to Russian or Hebrew
+3. Navigate to the "Акции и скидки" / "מבצעים והנחות" page
 
 ### Actual Result
-Only Hebrew language option is available. English language option is missing.
+The language switcher does not include an option to switch to English.
 
 ### Expected Result
 The language switcher should provide all available language options (Russian, English, Hebrew).
@@ -144,35 +141,78 @@ Medium
 Open
 
 ### Notes
-The issue occurs in the mobile version (Safari) and may not be reproducible on desktop browsers.
+Issue occurs on both desktop and mobile but only on this specific page.
 
 ---
 
-## Bug 6: Missing English language option in mobile menu (Safari, Hebrew version)
+## Bug 6: Website layout breaks after navigation (CSS/Responsive issue)
 
 ### Environment
-Browser: Safari  
-Device: iPhone 12 (Mobile)  
-Language: Hebrew  
+Browser: Safari, Chrome  
+Device: Mobile (iPhone)  
+Mode: Private browsing  
+Language: Any  
 
 ### Preconditions
-The user opens the website on a mobile device using Safari browser.
+The user opens the website and navigates between pages.
 
 ### Steps to Reproduce
 1. Open the website: https://nirvanajapanesespa.com
-2. Switch the language to Hebrew
-3. Open the mobile menu "מבצעים החודש"
-4. Open the mobile menu  
-5. Locate the language switcher
+2. Navigate between several pages (e.g., Home → Catalog → Policy)
+3. Observe the layout
 
 ### Actual Result
-Only Russian language option is available. English language option is missing.
+- Two logos are displayed at the top
+- Navigation menu is broken (links displayed as a vertical list instead of a menu)
+- Page layout exceeds screen width
+- Images are oversized and not responsive
+- Fonts appear inconsistent
+- Layout appears “unstyled” or broken
 
 ### Expected Result
-The language switcher should provide all available language options (Russian, English, Hebrew).
+- The layout should remain consistent and responsive after navigation
+- Only one logo should be displayed
+- Navigation menu should function correctly
+- Images should scale properly within screen boundaries
+- Fonts and styles should remain consistent
+
+### Severity
+High
+
+### Status
+Open
+
+### Notes
+The issue appears intermittently after navigating between pages and is reproducible across multiple browsers (Safari, Chrome).
+
+---
+
+## Bug 7: Inconsistent language switcher in English version
+
+### Environment
+Browser: Chrome, Safari  
+Device: Desktop, Mobile  
+Language: English
+
+### Preconditions
+User opens the website in English.
+
+### Steps to Reproduce
+1. Open the website: https://nirvanajapanesespa.com
+2. Switch to English language
+3. Observe the language switcher in the header/menu on any page
+
+### Actual Result
+Two separate buttons are displayed for Hebrew and Russian languages instead of a unified language switcher.  
+This occurs on **all pages** in the English version.
+
+### Expected Result
+The English version should have the same unified language switcher style as in the Russian and Hebrew versions (single dropdown or consistent control) according to SRS.
 
 ### Severity
 Medium
 
 ### Status
 Open
+
+
