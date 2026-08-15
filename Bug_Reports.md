@@ -2,7 +2,7 @@
 
 ---
 
-## Bug 1: [RU Services Page] Typo in word “люой” instead of “любой” in ROYAL spa package description
+## Bug 001: [RU Services Page] Typo in word “люой” instead of “любой” in ROYAL spa package description
 
 ### Environment
 Browser: Chrome
@@ -33,7 +33,7 @@ Open
 
 ---
 
-## Bug 2: External link opens in the same tab instead of a new tab
+## Bug 002: External link opens in the same tab instead of a new tab
 
 ### Preconditions
 The user opens the website and navigates to the "Company Policy" page in Russian language.
@@ -59,7 +59,7 @@ Open
 
 ---
 
-## Bug 3: Incorrect language displayed in "Company Policy" page title
+## Bug 003: Incorrect language displayed in "Company Policy" page title
 
 ### Preconditions
 The user opens the website and selects Russian or English language
@@ -87,7 +87,7 @@ Open
 
 ---
 
-## Bug 4: Service item is expanded by default in the catalog page
+## Bug 004: Service item is expanded by default in the catalog page
 
 ### Preconditions
 The user opens the website in Russian language.
@@ -113,7 +113,7 @@ This behavior contradicts the requirement that all services shall be collapsed b
 
 ---
 
-## Bug 5: Missing English language option on "Promotions and Discounts" page
+## Bug 005: Missing English language option on "Promotions and Discounts" page
 
 ### Environment
 Browser: Chrome, Safari  
@@ -145,7 +145,7 @@ Issue occurs on both desktop and mobile but only on this specific page.
 
 ---
 
-## Bug 6: Website layout breaks after navigation (CSS/Responsive issue)
+## Bug 006: Website layout breaks after navigation (CSS/Responsive issue)
 
 ### Environment
 Browser: Safari, Chrome  
@@ -187,7 +187,7 @@ The issue appears intermittently after navigating between pages and is reproduci
 
 ---
 
-## Bug 7: Inconsistent language switcher in English version
+## Bug 007: Inconsistent language switcher in English version
 
 ### Environment
 Browser: Chrome, Safari  
