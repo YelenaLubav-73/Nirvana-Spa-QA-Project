@@ -1,24 +1,42 @@
-# Nirvana-Spa-QA-Project 
+# Nirvana-Spa-QA-Project
 
 ## Project Description
-This project contains QA documentation for testing the Nirvana Japanese Spa website.
+This repository contains QA documentation created for testing the Nirvana Japanese Spa website as part of a team QA course project.
 
-## Scope
-The project includes:
+## My Contribution
+- Requirements analysis
+- Test scenario and test case design
+- Manual test execution
+- Defect identification and reporting
+- Requirements-to-test-case traceability
+- Cross-browser and mobile testing
+
+## QA Artifacts
 - Software Requirements Specification (SRS)
-- Bug Reports
+- Software Test Design (STD)
 - Test Cases
+- Bug Reports
+- Traceability Matrix
 
-## Testing Focus
+## Testing Types
 - Functional Testing
-- UI/UX Testing
+- UI Testing
 - Localization Testing
-- Mobile Responsiveness Testing
+- Cross-browser Testing
+- Mobile / Responsive Testing
+- Exploratory Testing
 
-## Tools
-- Manual Testing
-- Browser Testing (Chrome)
-- Mobile Testing (iPhone12)
+## Test Environment
+- Desktop: Chrome, Safari
+- Mobile device: iPhone 12
+- Languages: English, Russian, Hebrew
+
+## Traceability
+The project includes traceability between:
+
+**Requirement → Test Scenario → Test Case → Defect → Test Status**
+
+Test execution results include Pass, Fail, and Partially Executed statuses.
 
 ## Author
 Yelena Lubavin
