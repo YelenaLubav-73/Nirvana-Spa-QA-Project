@@ -37,7 +37,7 @@ Maintained traceability between requirements, test scenarios, test cases, defect
 
 ## Test Environment
 - Desktop: Windows, macOS (Chrome, Safari)
-- Mobile device: iPhone 12 (Chrome, Safari)
+- Mobile device: iPhone 12 Pro Max(Chrome, Safari)
 - Languages: English, Russian, Hebrew
 - 
 ## Key Skills Demonstrated
