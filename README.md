@@ -26,7 +26,7 @@ Maintained traceability between requirements, test scenarios, test cases, defect
 
 ## Testing Types
 - Functional Testing
-- UI / GUI Testing
+- UI / Testing / Visual Testing
 - Localization Testing
 - Cross-browser Testing
 - Mobile / Responsive Testing
